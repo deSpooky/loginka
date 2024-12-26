@@ -220,3 +220,218 @@ form {
     font-weight: 700;
     line-height: normal;
 }
+
+@media (min-width: 1024px) and (max-width: 1440px){
+    h1 {
+        width: 100%;
+        text-align: left;
+        color: #000;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 1px;
+    } 
+    h2 {
+        width: 309px;
+        color: #FFF;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.88px;
+    }
+    
+    
+    h3 {
+        color: #909090;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    h5 {
+        color: #000;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    
+    p {
+        width: 100%;
+        text-align: left;
+    
+        color: #A0A0A0;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    
+        a {
+            color: #7CD2D7;
+            text-decoration: none;
+        }
+    }
+    
+    .container {
+        width: 900px;
+        margin: 0 auto;
+    }
+    
+    
+    header {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        margin-top: 30px;
+        width: 100%;
+    }
+    
+    
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    select {
+        color: #A1A1A1;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.56px;
+        border: none;
+    }
+    
+    main {
+        margin-top: 100px;
+    }
+    
+    
+    .abstraction {
+        transform: rotate(-7.146deg);
+        position: relative;
+        left: -69px;
+        z-index: 3;
+        margin-top: 10px;
+    }
+    
+    .hero {
+        width: 57vw;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 1;
+        height: 100vh;
+        border-radius: 38px 0 0 38px  ;
+        background: #FFF;
+    
+    
+        .form_wrapper {
+            width: 389px;
+            margin: 0 auto;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+    }
+    
+    h3::after {
+        content: '';
+        display: inline-block;
+        vertical-align: middle;
+        background: #A0A0A0;
+        height: 1px;
+        width: 7px;
+        margin-left: 6px;
+    }
+    
+    h3::before {
+        content: '';
+        display: inline-block;
+        vertical-align: middle;
+        background: #A0A0A0;
+        height: 1px;
+        width: 7px;
+        margin-right: 6px;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    
+        input {
+            width: 400px;
+            border: none;
+            border-bottom: 1px solid #EAEAEA;
+    
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    
+    
+        input:focus {
+            outline: none;
+        }
+    
+        input::placeholder {
+            color: #A0A0A0;
+        }
+    }
+    
+    .inner-input {
+        position: relative;
+    }
+    
+    .eye-img {
+        position: absolute;
+        top: 0;
+        left: 380px;
+    }
+    
+    .wrap-sign-btn {
+        display: flex;
+        gap: 25px;
+    }
+    
+    .sign-btn {
+        width: 190px;
+        padding: 10px;
+        box-sizing: border-box;
+        cursor: pointer;
+        height: 45px;
+        display: flex;
+        flex-shrink: 0;
+        align-items: center;
+        justify-content: space-between;
+    
+        border-radius: 9px;
+        border: 1px solid #EAEAEA;
+        background: #FFF;
+    }
+    
+    .create-btn {
+        border-radius: 9px;
+        background: #7CD2D7;
+        padding: 9px 126px;
+        color: #FFFFFF;
+        text-decoration: none;
+    
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
